@@ -8,9 +8,9 @@ class Navbar extends PureComponent {
         <div className="container">
           <div className="brand-logo">My Todo's</div>
           <ul className="right">
-            <li><Link to="/">Own stuff</Link></li>
-            <li><Link to="/education">Education</Link></li>
-            <li><Link to="/work">Work</Link></li>
+            <li><Link to="todos/">Own stuff</Link></li>
+            <li><Link to="todos/education">Education</Link></li>
+            <li><Link to="todos/work">Work</Link></li>
           </ul>
         </div>
       </nav>

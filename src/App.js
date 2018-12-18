@@ -15,9 +15,9 @@ class App extends PureComponent {
           <BrowserRouter>
             <div className="App">
               <Navbar />
-                <Route exact path="/" component={Own} />
-                <Route path="/education" component={Education} />
-                <Route path="/work" component={Work} />
+                <Route exact path="todos/" component={Own} />
+                <Route path="todos/education" component={Education} />
+                <Route path="todos/work" component={Work} />
             </div>
           </BrowserRouter>
         </Provider>
