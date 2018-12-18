@@ -7,9 +7,9 @@ import Work from './components/Work';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store';
-import { createBrowserHistory } from 'history/createBrowserHistory';
+import createHistory from 'history/createBrowserHistory';
 
-const history = createBrowserHistory({
+const history = createHistory({
   basename: process.env.PUBLIC_URL,
 });
 
