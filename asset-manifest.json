@@ -1,13 +1,13 @@
 {
-  "main.css": "/todos/static/css/main.151c3f33.chunk.css",
-  "main.js": "/todos/static/js/main.54fdeea6.chunk.js",
-  "main.js.map": "/todos/static/js/main.54fdeea6.chunk.js.map",
-  "static/js/1.fb9bb845.chunk.js": "/todos/static/js/1.fb9bb845.chunk.js",
-  "static/js/1.fb9bb845.chunk.js.map": "/todos/static/js/1.fb9bb845.chunk.js.map",
+  "main.css": "/todos/static/css/main.8d25ba4c.chunk.css",
+  "main.js": "/todos/static/js/main.c65ad3aa.chunk.js",
+  "main.js.map": "/todos/static/js/main.c65ad3aa.chunk.js.map",
+  "static/js/1.50ce51f4.chunk.js": "/todos/static/js/1.50ce51f4.chunk.js",
+  "static/js/1.50ce51f4.chunk.js.map": "/todos/static/js/1.50ce51f4.chunk.js.map",
   "runtime~main.js": "/todos/static/js/runtime~main.f680c587.js",
   "runtime~main.js.map": "/todos/static/js/runtime~main.f680c587.js.map",
-  "static/css/main.151c3f33.chunk.css.map": "/todos/static/css/main.151c3f33.chunk.css.map",
+  "static/css/main.8d25ba4c.chunk.css.map": "/todos/static/css/main.8d25ba4c.chunk.css.map",
   "index.html": "/todos/index.html",
-  "precache-manifest.055fac60276234abdbc414dd7f6a0193.js": "/todos/precache-manifest.055fac60276234abdbc414dd7f6a0193.js",
+  "precache-manifest.434ce809ef0646402a0304ba9a943ae6.js": "/todos/precache-manifest.434ce809ef0646402a0304ba9a943ae6.js",
   "service-worker.js": "/todos/service-worker.js"
 }
