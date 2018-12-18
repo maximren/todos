@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Own from './components/Own';
 import Education from './components/Education';
 import Work from './components/Work';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store';
 import createHistory from 'history/createBrowserHistory';
@@ -20,11 +20,9 @@ class App extends PureComponent {
         <BrowserRouter history={history}>
           <div className="App">
             <Navbar />
-            <Switch>
-              <Route exact path="/" component={Own} />
-              <Route path="/education" component={Education} />
-              <Route path="/work" component={Work} />
-            </Switch>
+            <Route exact path="/" component={Own} />
+            <Route path="/education" component={Education} />
+            <Route path="/work" component={Work} />
           </div>
         </BrowserRouter>
       </Provider>
