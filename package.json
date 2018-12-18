@@ -2,7 +2,7 @@
   "name": "todos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://maximren.github.io/todos",
+  "homepage": "http://maximren.github.io/todos",  
   "dependencies": {
     "hash-source": "^1.0.1",
     "history": "^4.7.2",
