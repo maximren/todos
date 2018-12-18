@@ -9,15 +9,13 @@ import { Provider } from 'react-redux';
 import store from './store';
 import createHistory from 'history/createBrowserHistory';
 
-const history = createHistory({
-  basename: '/'
-});
+const history = createHistory();
 
 class App extends PureComponent {
   render() {
     return (
       <Provider store={store}>
-        <BrowserRouter history={history}>
+        <BrowserRouter basename={process.env.PUBLIC_URL} history={history}>
           <div className="App">
             <Navbar />
             <Route exact path="/" component={Own} />
