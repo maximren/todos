@@ -5,6 +5,7 @@
   "homepage": "http://maximren.github.io/todos/",
   "dependencies": {
     "hash-source": "^1.0.1",
+    "history": "^4.7.2",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
